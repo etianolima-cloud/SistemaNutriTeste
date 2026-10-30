@@ -1,0 +1,15 @@
+{
+  "name": "sistema-diario-escolar",
+  "version": "1.0.0",
+  "description": "Diário Escolar Eletrônico conectado com Vercel Postgres",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "dependencies": {
+    "@vercel/postgres": "^0.10.0",
+    "dotenv": "^16.4.7",
+    "pg": "^8.13.1"
+  }
+}
