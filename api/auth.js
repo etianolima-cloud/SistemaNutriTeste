@@ -80,6 +80,6 @@ module.exports = async (req, res) => {
 
   } catch (err) {
     console.error('Erro no login:', err);
-    return res.status(500).json({ error: 'Erro interno no servidor' });
+    return res.status(500).json({ error: 'Erro no login', details: err.message });
   }
 };
